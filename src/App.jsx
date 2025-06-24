@@ -1,7 +1,7 @@
-import react from 'react';
+
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Collection from './pages/Collection';
+import Collection from './pages/collection';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Product from './pages/Product';
@@ -12,7 +12,7 @@ import Orders from './pages/Orders';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SearchBar from './components/SearchBar';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const App = ()=>{
   return(
